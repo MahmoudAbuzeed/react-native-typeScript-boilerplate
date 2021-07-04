@@ -1,8 +1,9 @@
 import {StyleSheet} from 'react-native';
 import colors from '../../shared/colors';
 import fontSize from '../../shared/fonts/fontSize';
+import IStyle from './interfaces/IStyle';
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create<IStyle>({
   container: {
     flex: 1,
     backgroundColor: colors.light.shadowColor,

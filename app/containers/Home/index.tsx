@@ -1,7 +1,8 @@
 import * as React from 'react';
 import HomeComponent from './homeComponent';
 
-const Home = () => {
+const Home = (props: any) => {
+  console.log(props);
   return <HomeComponent />;
 };
 
