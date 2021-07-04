@@ -15,12 +15,12 @@ const styles = StyleSheet.create<IStyle>({
     color: colors.gray.veryLight,
     textAlign: 'center',
     marginHorizontal: 20,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.h4,
   },
 
   everestText: {
     color: colors.light.primary,
-    fontSize: fontSize.large,
+    fontSize: fontSize.h1,
   },
 });
 
